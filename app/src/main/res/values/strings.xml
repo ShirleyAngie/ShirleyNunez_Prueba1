@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ShirleyNunez_Prueba1</string>
+    <string name="Dividendo">Ingrese Dividendo</string>
+    <string name="Divisor">Ingrese Divisor</string>
+    <string name="NumeroTres">Ingrese un numero</string>
+    <string name="Cerrar">Cerrar</string>
+    <string name="MostrarResultados">Mostrar Resultados</string>
+    <string name="Siguiente">Siguiente</string>
 </resources>

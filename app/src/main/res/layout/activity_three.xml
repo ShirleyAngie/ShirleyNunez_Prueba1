@@ -5,66 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".SecontActivity">
+    tools:context=".ThreeActivity">
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/editTextNombrestres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:enabled="false"
         android:inputType="textPersonName"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/editTextApellidostres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName11"
+        android:id="@+id/editTextDividendotres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:enabled="false"
+        android:hint="@string/Dividendo"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
+        android:minHeight="48dp" />
 
     <EditText
-        android:id="@+id/editTextNumerodos"
+        android:id="@+id/editTextDivisortres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:enabled="false"
+        android:hint="@string/Divisor"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
-        android:text="Name" />
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextNumerotres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/NumeroTres"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
 
     <Button
-        android:id="@+id/buttonsiguientedos"
+        android:id="@+id/buttonCerrartres"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="siguiente"
-        android:text="@string/Siguiente" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:enabled="false"
+        android:onClick="cerrar"
         android:text="@string/Cerrar" />
 </LinearLayout>
