@@ -30,7 +30,6 @@ public class SecontActivity extends AppCompatActivity {
                         lstDatosRecibidos = datos.getStringArray("lstDatos");
                         editTextNombres.setText(lstDatosRecibidos[0].toString());
                         editTextApellidos.setText(lstDatosRecibidos[2].toString());
-
                         buttonCerrarS.setEnabled(true);
 
                     }
@@ -41,14 +40,15 @@ public class SecontActivity extends AppCompatActivity {
 
     EditText editTextNombres, editTextDividendo , editTextApellidos, editTextDivisor , editTextNumeros;
 
+
+
     @SuppressLint("MissingInflatedId")
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_secont);
         editTextNombresdos= findViewById(R.id.editTextNombresdos);
         editTextApellidodos= findViewById(R.id.editTextApellidosdos);
-        buttonCerrarS = findViewById(R.id.buttoncerrardos);
+        buttonCerrarS = findViewById(R.id.buttonCerrarS);
 
     }
 

@@ -27,7 +27,7 @@ public class ThreeActivity extends AppCompatActivity {
                         Bundle datos = result.getData().getExtras();
                         lstDatosRecibidos = datos.getStringArray("lstDatos");
                         editTextNombres.setText(lstDatosRecibidos[0].toString());
-                        editTextApellidos.setText(lstDatosRecibidos[2].toString());
+                        editTextApellidos.setText(lstDatosRecibidos[1].toString());
 
                     }
                 }
