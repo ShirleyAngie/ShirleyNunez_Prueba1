@@ -6,4 +6,8 @@
     <string name="Cerrar">Cerrar</string>
     <string name="MostrarResultados">Mostrar Resultados</string>
     <string name="Siguiente">Siguiente</string>
+    <string name="Nombre">Ingrese Nombre</string>
+    <string name="Apellidos">Ingrese</string>
+    <string name="NombreDos">Ingrese nombres</string>
+    <string name="Apellidosdos">Ingrese Apellidos</string>
 </resources>

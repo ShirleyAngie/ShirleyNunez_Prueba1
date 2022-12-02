@@ -14,11 +14,11 @@ public class SecontActivity extends AppCompatActivity {
         setContentView(R.layout.activity_secont);
     }
 
-    public void siguiente(View view){
+      public void siguientedos(View view){
         Intent intent = new Intent(this, ThreeActivity.class);
         startActivity(intent);
-    }
+      }
     public void cerrar(View view){
-        finish();
-    }
+       finish();
+   }
 }

@@ -14,7 +14,7 @@
         android:ems="10"
         android:enabled="false"
         android:inputType="textPersonName"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -24,7 +24,7 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName4"
@@ -34,7 +34,7 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName5"
@@ -44,7 +44,7 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName6"
@@ -54,7 +54,7 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextTextPersonName7"
@@ -64,7 +64,7 @@
         android:enabled="false"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name" />
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/buttonsiguiente"
