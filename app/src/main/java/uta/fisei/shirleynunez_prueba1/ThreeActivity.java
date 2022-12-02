@@ -15,6 +15,25 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class ThreeActivity extends AppCompatActivity {
+    String[] lstDatosRecibidos;
+
+
+    ActivityResultLauncher<Intent> activityResult =
+            registerForActivityResult(new ActivityResultContracts.StartActivityForResult(), new ActivityResultCallback<ActivityResult>() {
+                @Override
+                public void onActivityResult(ActivityResult result) {
+                    if (result.getResultCode() == Activity.RESULT_OK)
+                    {
+                        Bundle datos = result.getData().getExtras();
+                        lstDatosRecibidos = datos.getStringArray("lstDatos");
+                        editTextNombres.setText(lstDatosRecibidos[0].toString());
+                        editTextApellidos.setText(lstDatosRecibidos[2].toString());
+
+                    }
+                }
+            });
+
+
 
     EditText editTextNombres, editTextDividendo , editTextApellidos, editTextDivisor , editTextNumeros;
 
